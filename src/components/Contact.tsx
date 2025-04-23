@@ -10,13 +10,13 @@ const Contact = () => {
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
         </p>
         <div className="flex justify-center gap-6">
-          <a href="mailto:hello@example.com" className="text-primary hover:text-accent transition-colors">
+          <a href="mailto:marie.bertin0905@gmail.com" className="text-primary hover:text-accent transition-colors">
             <Mail size={24} />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
+          <a href="https://github.com/BOUYADU44" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
+          <a href="https://www.linkedin.com/in/marie-bertin-534693296/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
             <Linkedin size={24} />
           </a>
         </div>

@@ -1,7 +1,8 @@
 
 import Layout from "@/components/Layout";
+import TheContacts from "@/components/Contact";
 
-const Other = () => {
+const Contact = () => {
   return (
     <Layout>
       <div className="pt-20">
@@ -9,8 +10,12 @@ const Other = () => {
           <h1 className="text-3xl font-bold text-primary mb-8">Contact</h1>
         </div>
       </div>
+      <TheContacts />
     </Layout>
   );
 };
 
-export default Other;
+export default Contact;
+
+
+

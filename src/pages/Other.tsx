@@ -12,28 +12,38 @@ const Other = () => {
       </div>
 
       <div className="container mx-auto px-4 flex items-center gap-2 mb-4">
-  <FileText className="text-red-600" />
-  <a
-    href="/documents/TableauSynthese.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-green-100 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
-  >
-    Tableau de Synthèse
-  </a>
-</div>
 
-<div className="container mx-auto px-4 flex items-center gap-2">
-  <FileText className="text-red-600" />
-  <a
-    href="/documents/CV_MIAGE.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="rounded-md px-4 py-2 text-sm font-medium transition-colors hover:bg-red-100 hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50"
-  >
-    CV
-  </a>
-</div>
+
+        <a
+          href="/documents/TableauSynthese.pdf"
+          target="_blank"
+         rel="noopener noreferrer"
+          className="flex items-center gap-4 rounded-xl border p-6 shadow-sm hover:shadow-md transition-shadow bg-gray-50 hover:bg-green-100 focus:outline-none"
+        >
+         <FileText className="text-red-600 flex-shrink-0" size={24} />
+         <span className="text-xl font-semibold text-gray-800">
+            Tableau de Synthèse
+          </span>
+        </a>
+
+      </div>
+      <div className="container mx-auto px-4 flex items-center gap-2 mb-4">
+
+
+        <a
+          href="/documents/CV_MIAGE.pdf"
+          target="_blank"
+         rel="noopener noreferrer"
+          className="flex items-center gap-4 rounded-xl border p-6 shadow-sm hover:shadow-md transition-shadow bg-gray-50 hover:bg-red-100 focus:outline-none"
+        >
+         <FileText className="text-red-600 flex-shrink-0" size={24} />
+         <span className="text-xl font-semibold text-gray-800">
+            CV
+          </span>
+        </a>
+
+      </div>
+
     </Layout>
   );
 };
