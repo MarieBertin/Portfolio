@@ -1,21 +1,17 @@
-
 import { Link } from "react-router-dom";
 import { Book, FileText, Folder, Mail, User } from "lucide-react";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
-  NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
 const Navigation = () => {
   return (
     <nav className="w-full bg-white/80 backdrop-blur-sm fixed top-0 z-50 border-b">
-      <div className="container mx-auto px-4 py-2">
-        <NavigationMenu>
+      <div className="container mx-auto px-4 py-2 flex justify-center">
+        <NavigationMenu className="flex justify-center w-full">
           <NavigationMenuList className="gap-6">
             <NavigationMenuItem>
               <Link to="/" className={navigationMenuTriggerStyle()}>
