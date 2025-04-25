@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Book, FileText, Folder, Mail, Menu, User } from "lucide-react";
+import { Book, FileText, Folder, Mail, Menu, User, Book as VeilleIcon } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -19,6 +19,7 @@ const Navigation = () => {
     { to: "/education", icon: Book, label: "Education" },
     { to: "/projects", icon: Folder, label: "Projects" },
     { to: "/contact", icon: Mail, label: "Contact and Socials" },
+    { to: "/veille", icon: VeilleIcon, label: "Veille" },
     { to: "/other", icon: FileText, label: "Other" },
   ];
 

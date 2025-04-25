@@ -10,6 +10,7 @@ import Other from "./pages/Other";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Veille from "./pages/Veille";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/other" element={<Other />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/veille" element={<Veille />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
