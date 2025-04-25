@@ -31,7 +31,7 @@ const Other = () => {
 
 
         <a
-          href="/documents/CV_MIAGE.pdf"
+          href="/documents/CV.pdf"
           target="_blank"
          rel="noopener noreferrer"
           className="flex items-center gap-4 rounded-xl border p-6 shadow-sm hover:shadow-md transition-shadow bg-gray-50 hover:bg-red-100 focus:outline-none"
