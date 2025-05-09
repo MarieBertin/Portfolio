@@ -70,17 +70,7 @@ const Veille = () => {
               Je me renseigne régulièrement sur les biais algorithmiques dans l'intelligence artificielle, pour mieux comprendre comment ils peuvent influencer nos sociétés et nos décisions, mais aussi comment les réduire.
 
             </p>
-            {/*
-            <a 
-              href="https://learn.microsoft.com/fr-fr/power-bi/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
-            >
-              <Link2 className="h-4 w-4" />
-              <span>MS Power BI documentation</span>
-            </a>
-          */}
+            
           </div>
 
         </div>
