@@ -4,19 +4,19 @@ import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/ca
 const Projects = () => {
   const projects = [
     {
-      title: "Project One",
-      description: "A modern web application built with React and TypeScript.",
-      tech: "React, TypeScript, Tailwind",
+      title: "Logiciel pour la gestion de l'évènement 'La Folle Journée'",
+      description: "Un logiciel permettant la consultation et gestion des différents compositeurs et salles de l'évènement.",
+      tech: "C#, Entity Framework Core, SQL Server",
     },
     {
-      title: "Project Two",
-      description: "An e-commerce platform with a focus on user experience.",
-      tech: "Next.js, Prisma, PostgreSQL",
+      title: "API REST",
+      description: "API REST permettant la récupération de visites et de soins pour les applications d'une clinique.",
+      tech: "Python, FastAPI, MySQL Workbench",
     },
     {
-      title: "Project Three",
-      description: "A real-time chat application with modern features.",
-      tech: "React, Firebase, WebSockets",
+      title: "Planning Laboratoire de Test",
+      description: "Un planning pour le laboratoire de Tests, avec plusieurs indicateurs concernant le retard et le cumul de pièces à tester. Disponible sur le Sharepoint de l'entreprise",
+      tech: "MS Power BI, MS Power Automate, Excel, SharePoint",
     },
   ];
 
