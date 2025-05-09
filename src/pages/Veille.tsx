@@ -67,9 +67,10 @@ const Veille = () => {
               <h2 className="text-2xl font-semibold">Les biais algorithmiques dans l'intelligence artificielle : un reflet de nos sociétés ?</h2>
             </div>
             <p className="mb-4 text-gray-700">
-              Je me renseigne régulièrement sur les biais algorithmiques dans l'intelligence artificielle pour mieux comprendre comment ces biais peuvent influencer nos sociétés et nos décisions.
-              
+              Je me renseigne régulièrement sur les biais algorithmiques dans l'intelligence artificielle, pour mieux comprendre comment ils peuvent influencer nos sociétés et nos décisions, mais aussi comment les réduire.
+
             </p>
+            {/*
             <a 
               href="https://learn.microsoft.com/fr-fr/power-bi/"
               target="_blank"
@@ -79,6 +80,7 @@ const Veille = () => {
               <Link2 className="h-4 w-4" />
               <span>MS Power BI documentation</span>
             </a>
+          */}
           </div>
 
         </div>
