@@ -9,19 +9,18 @@ const Projects = () => {
       title: "Logiciel pour la gestion de l'évènement 'La Folle Journée'",
       description: "Un logiciel permettant la consultation et gestion des différents compositeurs et salles de l'évènement.",
       tech: "C#, Entity Framework Core, SQL Server",
-      githubUrl: "https://github.com/yourusername/folle-journee",
+      githubUrl: "https://github.com/BOUYADU44/SIO2BERTINMarie_MusicAtoutV2",
     },
     {
       title: "API REST",
       description: "API REST permettant la récupération de visites et de soins pour les applications d'une clinique.",
       tech: "Python, FastAPI, MySQL Workbench",
-      githubUrl: "https://github.com/yourusername/api-rest-clinique",
+      githubUrl: "https://github.com/BOUYADU44/api_soins",
     },
     {
       title: "Planning Laboratoire de Test",
       description: "Un planning pour le laboratoire de Tests, avec plusieurs indicateurs concernant le retard et le cumul de pièces à tester. Disponible sur le Sharepoint de l'entreprise",
-      tech: "MS Power BI, MS Power Automate, Excel, SharePoint",
-      githubUrl: "https://github.com/yourusername/planning-labo-test",
+      tech: "MS Power BI, MS Power Automate, Excel, SharePoint"
     },
   ];
 
