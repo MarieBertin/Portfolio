@@ -1,5 +1,7 @@
 
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Github } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Projects = () => {
   const projects = [
@@ -7,16 +9,19 @@ const Projects = () => {
       title: "Logiciel pour la gestion de l'évènement 'La Folle Journée'",
       description: "Un logiciel permettant la consultation et gestion des différents compositeurs et salles de l'évènement.",
       tech: "C#, Entity Framework Core, SQL Server",
+      githubUrl: "https://github.com/yourusername/folle-journee",
     },
     {
       title: "API REST",
       description: "API REST permettant la récupération de visites et de soins pour les applications d'une clinique.",
       tech: "Python, FastAPI, MySQL Workbench",
+      githubUrl: "https://github.com/yourusername/api-rest-clinique",
     },
     {
       title: "Planning Laboratoire de Test",
       description: "Un planning pour le laboratoire de Tests, avec plusieurs indicateurs concernant le retard et le cumul de pièces à tester. Disponible sur le Sharepoint de l'entreprise",
       tech: "MS Power BI, MS Power Automate, Excel, SharePoint",
+      githubUrl: "https://github.com/yourusername/planning-labo-test",
     },
   ];
 
@@ -26,7 +31,11 @@ const Projects = () => {
         <h2 className="text-3xl font-bold text-primary mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="bg-white hover:shadow-lg transition-shadow">
+            <Card 
+              key={index} 
+              className="bg-white hover:shadow-lg transition-shadow cursor-pointer"
+              onClick={() => window.open(project.githubUrl, '_blank')}
+            >
               <CardHeader>
                 <CardTitle className="text-xl mb-2">{project.title}</CardTitle>
                 <CardDescription className="text-primary/60">
@@ -35,6 +44,18 @@ const Projects = () => {
                 <div className="mt-4 text-sm text-primary/40">
                   {project.tech}
                 </div>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="mt-4 w-full flex items-center justify-center"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    window.open(project.githubUrl, '_blank');
+                  }}
+                >
+                  <Github className="mr-2 h-4 w-4" />
+                  View on GitHub
+                </Button>
               </CardHeader>
             </Card>
           ))}
