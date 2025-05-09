@@ -16,7 +16,7 @@ const About = () => {
               Je travaille de manière autonome lorsque je sais exactement ce que je veux faire, mais je préfère les moments de collaboration lorsque j'ai besoin d'avis ou de soutien. On dit souvent que mes réactions sont drôles et que je suis quelqu'un d'à l'écoute, ce qui me pousse à vouloir toujours faire le bien autour de moi.
             </p>
             <p className="text-primary/80 leading-relaxed mb-6">
-              Quand je ne suis pas en train de coder ou de jongler avec mes plantes, j'adore me détendre avec un bon manga ou en jouant avec mon chien!
+              Quand je ne suis pas en train de coder ou de jongler avec mes plantes, j'adore me détendre avec un bon manga, en faisant du ukulele et piano, ou en jouant avec mon chien!
             </p>
           </div>
           <div className="relative h-full">
