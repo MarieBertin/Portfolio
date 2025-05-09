@@ -33,7 +33,8 @@ const Projects = () => {
             <Card 
               key={index} 
               className="bg-white hover:shadow-lg transition-shadow cursor-pointer"
-              onClick={() => window.open(project.githubUrl, '_blank')}
+              onClick={() => project.githubUrl ? window.open(project.githubUrl, '_blank') : null}
+              style={{ cursor: project.githubUrl ? 'pointer' : 'default' }}
             >
               <CardHeader>
                 <CardTitle className="text-xl mb-2">{project.title}</CardTitle>
@@ -43,18 +44,20 @@ const Projects = () => {
                 <div className="mt-4 text-sm text-primary/40">
                   {project.tech}
                 </div>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  className="mt-4 w-full flex items-center justify-center"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    window.open(project.githubUrl, '_blank');
-                  }}
-                >
-                  <Github className="mr-2 h-4 w-4" />
-                  View on GitHub
-                </Button>
+                {project.githubUrl && (
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    className="mt-4 w-full flex items-center justify-center"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(project.githubUrl, '_blank');
+                    }}
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    View on GitHub
+                  </Button>
+                )}
               </CardHeader>
             </Card>
           ))}
