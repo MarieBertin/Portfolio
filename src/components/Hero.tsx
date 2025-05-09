@@ -4,7 +4,7 @@ const Hero = () => {
     <section className="min-h-[80vh] flex items-center justify-center bg-secondary">
       <div className="text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
-          Hey, moi c'est Marie Bertin
+          Salut! Moi c'est Marie Bertin
         </h1>
         <h2 className="text-xl md:text-2xl text-primary/80 mb-8">
           Developpeuse

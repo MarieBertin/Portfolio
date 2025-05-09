@@ -56,6 +56,31 @@ const Veille = () => {
               <span>MS Power Automate documentation</span>
             </a>
           </div>
+          {/* AI */}
+          <div className="mb-12 p-6 bg-white rounded-xl shadow-md">
+            <div className="flex items-center gap-4 mb-4">
+              <img 
+                src="/images/IA.png" 
+                alt="image AI" 
+                className="w-16 h-16 object-contain"
+              />
+              <h2 className="text-2xl font-semibold">Les biais algorithmiques dans l'intelligence artificielle : un reflet de nos sociétés ?</h2>
+            </div>
+            <p className="mb-4 text-gray-700">
+              Je me renseigne régulièrement sur les biais algorithmiques dans l'intelligence artificielle pour mieux comprendre comment ces biais peuvent influencer nos sociétés et nos décisions.
+              
+            </p>
+            <a 
+              href="https://learn.microsoft.com/fr-fr/power-bi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-blue-600 hover:text-blue-800 transition-colors"
+            >
+              <Link2 className="h-4 w-4" />
+              <span>MS Power BI documentation</span>
+            </a>
+          </div>
+
         </div>
       </div>
     </Layout>
