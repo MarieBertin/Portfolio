@@ -10,7 +10,7 @@ const Hero = () => {
           Developpeuse
         </h2>
         <p className="max-w-lg mx-auto text-primary/60 leading-relaxed">
-          Développeuse en BTS SIO I create beautiful and functional web experiences with modern technologies.
+        Étudiante en BTS SIO, je découvre chaque jour la richesse du développement web. Ce que j’aime ? Créer des projets utiles, bien conçus, et accessibles à tous.
         </p>
       </div>
     </section>
