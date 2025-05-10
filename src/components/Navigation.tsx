@@ -18,7 +18,7 @@ const Navigation = () => {
     { to: "/", icon: User, label: "About Me" },
     { to: "/education", icon: Book, label: "Education" },
     { to: "/projects", icon: Folder, label: "Projects" },
-    { to: "/contact", icon: Mail, label: "Contact and Socials" },
+    { to: "/contact", icon: Mail, label: "Contacts" },
     { to: "/veille", icon: VeilleIcon, label: "Veille" },
     { to: "/other", icon: FileText, label: "Other" },
   ];
