@@ -17,7 +17,7 @@ const Navigation = () => {
   const navigationItems = [
     { to: "/", icon: User, label: "About Me" },
     { to: "/education", icon: Book, label: "Education" },
-    { to: "/projects", icon: Folder, label: "Projects" },
+    { to: "/projects", icon: Folder, label: "Projets" },
     { to: "/contact", icon: Mail, label: "Contacts" },
     { to: "/veille", icon: VeilleIcon, label: "Veille" },
     { to: "/other", icon: FileText, label: "Other" },
