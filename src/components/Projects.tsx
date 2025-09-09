@@ -15,7 +15,7 @@ const Projects = () => {
       title: "API REST",
       description: "API REST permettant la récupération de visites et de soins pour les applications d'une clinique.",
       tech: "Python, FastAPI, MySQL Workbench",
-      githubUrl: "https://github.com/MarieBertin",
+      githubUrl: "https://github.com/MarieBertin/api_soins",
     },
     {
       title: "Planning Laboratoire de Test",
