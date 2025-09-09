@@ -12,7 +12,7 @@ const Contact = () => {
           <a href="mailto:marie.bertin0905@gmail.com" className="text-primary hover:text-accent transition-colors">
             <Mail size={24} />
           </a>
-          <a href="https://github.com/BOUYADU44" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
+          <a href="https://github.com/MarieBertin" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
             <Github size={24} />
           </a>
           <a href="https://www.linkedin.com/in/marie-bertin-534693296/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
