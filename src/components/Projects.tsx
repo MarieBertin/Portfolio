@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Logiciel pour la gestion de l'évènement 'La Folle Journée'",
       description: "Un logiciel permettant la consultation et gestion des différents compositeurs et salles de l'évènement.",
       tech: "C#, Entity Framework Core, SQL Server",
-      githubUrl: "https://github.com/MarieBertin",
+      githubUrl: "https://github.com/MarieBertin/SIO2BERTINMarie_MusicAtoutV2",
     },
     {
       title: "API REST",
